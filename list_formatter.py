@@ -1,7 +1,7 @@
 import os
 import json
 
-# Initialize an empty list to store the dataset
+current_dataset = ""
 
 while True:
     # Print menu options
@@ -34,7 +34,8 @@ while True:
                 print(f"{current_dataset} loaded.")
                 break
             except (ValueError, IndexError) as e:
-                print(f"Invalid input, please try again. Error: {e}")                
+                print(f"Invalid input, please try again. Error: {e}")
+                
     elif option == "2":
         if not current_dataset:
             print("No dataset loaded. Please load a dataset first.")
@@ -55,8 +56,6 @@ while True:
                         continue
                     dataset.append(item)
                     print(f"{item} added to dataset: {dataset}")
-                with open(current_dataset, "r") as f:
-                    dataset = json.load(f)
             elif action == "2":
                 item = input("Enter item to remove: ")
                 try:
@@ -71,18 +70,29 @@ while True:
             if save == "y":
                 with open(current_dataset, "w") as f:
                     json.dump(dataset, f)
+                with open(current_dataset, "r") as f:
+                    dataset = json.load(f)
                 print(f"{current_dataset} saved.")
                 break
             # update dataset after editing
     elif option == "3":
-        # Quit
-        break
+        # Ask user for confirmation before quitting
+        confirm_quit = input("Are you sure you want to quit? (y/n)")
+        if confirm_quit == "y":
+            # Quit
+            break
+        else:
+            # Go back to main menu
+            continue
     elif option == "4":
         if not current_dataset:
             print("No dataset loaded. Please load a dataset first.")
             continue
-        with open(current_dataset, "w") as f:
-                    json.dump(dataset, f)
-        print(f"Dataset: {dataset}")
+        try:
+            with open(current_dataset, "r") as f:
+                dataset = json.load(f)
+            print(f"Dataset: {dataset}")
+        except ValueError as e:
+            print(f"An error occurred while loading the dataset: {e}")
     else:
         print("Invalid input, please try again.")
