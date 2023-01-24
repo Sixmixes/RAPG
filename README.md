@@ -11,6 +11,8 @@ The program has a main menu with the following options:
 
 When the user chooses to "Load list" option, the program will display a list of all .json files in the current directory, and the user can select the file they wish to load.
 
+NOTE: if you want to add your own empty .json files it must contain [] brackets initally.
+
 When the user chooses to "Edit list" option, the user will be able to add new items to the dataset or remove items that already exist in the dataset. The user will also be prompted to save the changes made to the dataset.
 
 When the user chooses the "View loaded list" option, the program will display the current dataset.
