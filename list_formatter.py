@@ -36,8 +36,7 @@ while True:
                 print(f"{current_dataset} loaded.")
                 break
             except (ValueError, IndexError) as e:
-                print(f"Invalid input, please try again. Error: {e}")
-                
+                print(f"Invalid input, please try again. Error: {e}")                
     elif option == "2":
         if not current_dataset:
             print("No dataset loaded. Please load a dataset first.")
@@ -58,6 +57,8 @@ while True:
                         continue
                     dataset.append(item)
                     print(f"{item} added to dataset: {dataset}")
+                    with open(current_dataset, "r") as f:
+                        dataset = json.load(f)
             elif action == "2":
                 item = input("Enter item to remove: ")
                 try:
@@ -70,11 +71,11 @@ while True:
                 print("Invalid input, please try again.")
             save = input("Save changes? (y/n) ")
             if save == "y":
-                formatted_dataset = "[" + ",".join(dataset) + "]"
                 with open(current_dataset, "w") as f:
                     json.dump(dataset, f)
                 print(f"{current_dataset} saved.")
                 break
+            # update dataset after editing
     elif option == "3":
         # Quit
         break
@@ -82,6 +83,8 @@ while True:
         if not current_dataset:
             print("No dataset loaded. Please load a dataset first.")
             continue
-        print(f"Dataset: {json.load(dataset)}")
+        with open(current_dataset, "r") as f:
+                        dataset = json.load(f)
+        print(f"Dataset: {dataset}")
     else:
         print("Invalid input, please try again.")
