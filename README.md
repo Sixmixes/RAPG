@@ -1,7 +1,7 @@
 # promptgeneratorV1
 A simple prompt generator script that prints random text prompts for ai art generators.
 
-Prompt Generator
+#Prompt Generator
 Prompt Generator is a simple script that generates creative prompts for writing, drawing, or other creative endeavors. The script uses random selection to choose elements from predefined lists of characters, objects, settings, adjectives, and styles/qualities to generate a unique prompt each time it is run.
 
 Getting Started
