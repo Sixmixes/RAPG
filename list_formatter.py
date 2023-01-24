@@ -1,9 +1,7 @@
 import os
 import json
-import ast
 
 # Initialize an empty list to store the dataset
-current_dataset = ""
 
 while True:
     # Print menu options
@@ -57,8 +55,8 @@ while True:
                         continue
                     dataset.append(item)
                     print(f"{item} added to dataset: {dataset}")
-                    with open(current_dataset, "r") as f:
-                        dataset = json.load(f)
+                with open(current_dataset, "r") as f:
+                    dataset = json.load(f)
             elif action == "2":
                 item = input("Enter item to remove: ")
                 try:
@@ -83,8 +81,8 @@ while True:
         if not current_dataset:
             print("No dataset loaded. Please load a dataset first.")
             continue
-        with open(current_dataset, "r") as f:
-                        dataset = json.load(f)
+        with open(current_dataset, "w") as f:
+                    json.dump(dataset, f)
         print(f"Dataset: {dataset}")
     else:
         print("Invalid input, please try again.")
