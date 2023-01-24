@@ -20,7 +20,7 @@ lists. This allows for greater flexibility and creativity when generating prompt
 It is important to note that this program is designed for the purpose of providing inspiration 
 for AI art and should not be used for any other purpose.
 
-List Formatter README - SCROLL DOWN FOR PROMPT GENERATOR README
+List Formatter README - 
 
 List Formatter is a simple program that allows the user to store words in a dataset in the format 
 of ["item1", "item2", "item3", etc...]. The use case for this program is to enter words and add 
