@@ -1,6 +1,7 @@
 import os
 import json
 
+# Initialize an empty list to store the dataset
 current_dataset = ""
 
 while True:
@@ -35,7 +36,6 @@ while True:
                 break
             except (ValueError, IndexError) as e:
                 print(f"Invalid input, please try again. Error: {e}")
-                
     elif option == "2":
         if not current_dataset:
             print("No dataset loaded. Please load a dataset first.")
@@ -57,11 +57,14 @@ while True:
                     dataset.append(item)
                     print(f"{item} added to dataset: {dataset}")
             elif action == "2":
-                item = input("Enter item to remove: ")
-                try:
-                    dataset.remove(item)
-                except ValueError:
-                    print(f"{item} not found in the dataset.")
+                while True:
+                    item = input("Enter item to remove (or 'q' to exit): ")
+                    if item =="q":
+                        break
+                    try:
+                        dataset.remove(item)
+                    except ValueError:
+                        print(f"{item} not found in the dataset.")
             elif action == "3":
                 break
             else:
