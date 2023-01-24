@@ -23,3 +23,12 @@ while True:
 
         # Create the prompt
         prompt = character + ' ' + 'with a ' + obj + ' ' + setting + ', ' + adj + ' ' + ' '.join(liststyles)
+
+        # Store the prompt and its elements in variables
+        prev_prompt = prompt
+        prev_characters = character
+        prev_objects = obj
+        prev_settings = setting
+        prev_adjectives = adj
+        prev_styles = liststyles
+        prev_genmetas = genmetas
