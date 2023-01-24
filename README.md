@@ -52,3 +52,7 @@ accidentally exit without saving their work.
 In summary, List Formatter is a simple program that allows the user to easily create and 
 edit datasets in a specific format for use in other programs such as text prompt generators 
 for AI art.
+
+props to @526christian for inspiring me to make this
+https://github.com/526christian 
+
