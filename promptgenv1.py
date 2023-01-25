@@ -51,39 +51,39 @@ while True:
         pc.copy(prompt)
     elif user_input == "1":
         prev_adjectives = rn.choice(adjectives)
-        prev_prompt = '\n' + '\n' + prev_adjectives + ' ' + prev_characters + ' ' + 'with a ' + prev_objects + ' ' + prev_settings + ', ' + prev_styles + ', ' + prev_metas + '\n' + '\n'
+        prev_prompt = '\n' + '\n' + prev_adjectives + ' ' + prev_characters + ' ' + 'with a ' + prev_objects + ' in ' + prev_settings + ', ' + prev_styles + ', ' + prev_metas + '\n' + '\n'
         print("The adjectives in the previous prompt has been updated to: ",prev_adjectives)
         print("The updated prompt is: ",prev_prompt)
         pc.copy(prev_prompt)
     elif user_input == "2":
         prev_characters = rn.choice(characters)
-        prev_prompt = '\n' + '\n' + prev_adjectives + ' ' + prev_characters + ' ' + 'with a ' + prev_objects + ' ' + prev_settings + ', ' + prev_styles + ', ' + prev_metas + '\n' + '\n'
+        prev_prompt = '\n' + '\n' + prev_adjectives + ' ' + prev_characters + ' ' + 'with a ' + prev_objects + ' in ' + prev_settings + ', ' + prev_styles + ', ' + prev_metas + '\n' + '\n'
         print("The characters in the previous prompt has been updated to: ",prev_characters)
         print("The updated prompt is: ",prev_prompt)
         pc.copy(prev_prompt)
     elif user_input == "3":
         prev_objects = rn.choice(objects)
-        prev_prompt = '\n' + '\n' + prev_adjectives + ' ' + prev_characters + ' ' + 'with a ' + prev_objects + ' ' + prev_settings + ', ' + prev_styles + ', ' + prev_metas + '\n' + '\n'
+        prev_prompt = '\n' + '\n' + prev_adjectives + ' ' + prev_characters + ' ' + 'with a ' + prev_objects + ' in ' + prev_settings + ', ' + prev_styles + ', ' + prev_metas + '\n' + '\n'
         print("The objects in the previous prompt has been updated to: ",prev_objects)
         print("The updated prompt is: ",prev_prompt)
         pc.copy(prev_prompt)
     elif user_input == "4":
         prev_settings = rn.choice(settings)
-        prev_prompt = '\n' + '\n' + prev_adjectives + ' ' + prev_characters + ' ' + 'with a ' + prev_objects + ' ' + prev_settings + ', ' + prev_styles + ', ' + prev_metas + '\n' + '\n'
+        prev_prompt = '\n' + '\n' + prev_adjectives + ' ' + prev_characters + ' ' + 'with a ' + prev_objects + ' in ' + prev_settings + ', ' + prev_styles + ', ' + prev_metas + '\n' + '\n'
         print("The settings in the previous prompt has been updated to: ",prev_settings)
         print("The updated prompt is: ",prev_prompt)
         pc.copy(prev_prompt)
     elif user_input == "5":
         prev_metas = listmetas
         prev_styles = ', '.join(rn.sample(styles, numstyles))
-        prev_prompt = '\n' + '\n' + prev_adjectives + ' ' + prev_characters + ' ' + 'with a ' + prev_objects + ' ' + prev_settings + ', ' + prev_styles + ', ' + ', '.join(prev_metas) + '\n' + '\n'
+        prev_prompt = '\n' + '\n' + prev_adjectives + ' ' + prev_characters + ' ' + 'with a ' + prev_objects + ' in ' + prev_settings + ', ' + prev_styles + ', ' + ', '.join(prev_metas) + '\n' + '\n'
         print("The styles in the previous prompt has been updated to: ",prev_styles)
         print("The updated prompt is: ",prev_prompt)
         pc.copy(prev_prompt)
     elif user_input == "6":
         prev_styles = liststyles
         prev_metas = ', '.join(rn.sample(genmetas, numquality))
-        prev_prompt = '\n' + '\n' + prev_adjectives + ' ' + prev_characters + ' ' + 'with a ' + prev_objects + ' ' + prev_settings + ', ' + ', '.join(prev_styles) + ' ' + prev_metas + '\n' + '\n'
+        prev_prompt = '\n' + '\n' + prev_adjectives + ' ' + prev_characters + ' ' + 'with a ' + prev_objects + ' in ' + prev_settings + ', ' + ', '.join(prev_styles) + ' ' + prev_metas + '\n' + '\n'
         print("The genmetas in the previous prompt has been updated to: ",prev_metas)
         print("The updated prompt is: ",prev_prompt)
         pc.copy(prev_prompt)
