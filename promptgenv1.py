@@ -74,16 +74,14 @@ while True:
         print("The updated prompt is: ",prev_prompt)
         pc.copy(prev_prompt)
     elif user_input == "5":
-        prev_metas = listmetas
         prev_styles = ', '.join(rn.sample(styles, numstyles))
-        prev_prompt = '\n' + '\n' + prev_adjectives + ' ' + prev_characters + ' ' + 'with a ' + prev_objects + ' in ' + prev_settings + ', ' + prev_styles + ', ' + ', '.join(prev_metas) + '\n' + '\n'
+        prev_prompt = '\n' + '\n' + prev_adjectives + ' ' + prev_characters + ' ' + 'with a ' + prev_objects + ' in ' + prev_settings + ', ' + prev_styles + ', ' + prev_metas + '\n' + '\n'
         print("The styles in the previous prompt has been updated to: ",prev_styles)
         print("The updated prompt is: ",prev_prompt)
         pc.copy(prev_prompt)
     elif user_input == "6":
-        prev_styles = liststyles
         prev_metas = ', '.join(rn.sample(genmetas, numquality))
-        prev_prompt = '\n' + '\n' + prev_adjectives + ' ' + prev_characters + ' ' + 'with a ' + prev_objects + ' in ' + prev_settings + ', ' + ', '.join(prev_styles) + ' ' + prev_metas + '\n' + '\n'
+        prev_prompt = '\n' + '\n' + prev_adjectives + ' ' + prev_characters + ' ' + 'with a ' + prev_objects + ' in ' + prev_settings + ', ' + prev_styles + ' ' + prev_metas + '\n' + '\n'
         print("The genmetas in the previous prompt has been updated to: ",prev_metas)
         print("The updated prompt is: ",prev_prompt)
         pc.copy(prev_prompt)
