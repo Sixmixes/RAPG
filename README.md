@@ -3,7 +3,7 @@ AI Art Text Prompt Generator
 This program is designed to generate creative prompts for AI art generators. The program uses 
 a set of predefined lists of characters, objects, settings, adjectives and styles to randomly 
 generate a new prompt every time the user presses enter. The user can also choose to update 
-any of the elements in the previous prompt by entering a number between 1-6, corresponding to 
+any of the elements in the previous prompt by entering a number between 1-7, corresponding to 
 the elements in the prompt.
 
 To use this program, the user will first need to run the program and then press enter to 
