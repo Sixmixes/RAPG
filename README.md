@@ -56,3 +56,54 @@ for AI art.
 props to @526christian for inspiring me to make this
 https://github.com/526christian 
 
+Steps to Create a Batch File to Run a Python Script
+
+Step 1: Create the Python Script
+To start, create your Python Script.
+
+For example, let’s create a simple Python script that contains a countdown (alternatively, you may use any Python script that you wish to run):
+
+```
+countdown = 10
+
+while countdown > 0:
+    print ('CountDown = ', countdown)
+    countdown = countdown - 1
+```
+
+Step 2: Save your Script
+Save your Python script (your Python script should have the extension of ‘.py‘).
+
+For our example, let’s save the Python script as: Promptgen
+
+Where the file extension is .py
+
+Step 3: Create the Batch File to Run the Python Script
+To create the batch file, open Notepad and then use the following template:
+
+```
+@echo off
+"Path where your Python exe is stored\python.exe" "Path where your Python script is stored\script name.py"
+pause
+```
+
+You’ll need to adjust the syntax in two places:
+
+“Path where your Python exe is stored\python.exe”
+Here is an example where a Python exe is located: “C:\Users\Ron\AppData\Local\Programs\Python\Python39\python.exe”
+“Path where your Python script is stored\script name.py”
+And here is an example where a Python script is located:
+“C:\Users\Ron\Desktop\Test\promptgen.py”
+
+Note that you’ll need to change the paths to reflect the locations where the files are stored on your computer.
+
+This is how the batch script would look like in Notepad for our example:
+
+```
+@echo off
+"C:\Users\Ron\AppData\Local\Programs\Python\Python39\python.exe" "C:\Users\Ron\Desktop\Test\promptgen.py"
+pause
+```
+Save the Notepad with a ‘.bat‘ extension. For example, let’s save the Notepad as Run_Script.bat
+
+A new batch file, called “Run_Script.bat,” will be created at your specified location.
