@@ -1,5 +1,4 @@
-MAKE SURE THE .BAT FILE IS IN THIS REPO'S directory(you can create a shortcut and place the shorcut anywhere you'd like on your system)-remove this line after you set your paths
-VIEW README FOR MORE INFO -remove this line after you set your paths
+VIEW README FOR MORE INFO
 @echo off
 "Path where your Python exe is stored\python.exe" "Path where your Python script is stored\script name.py"
 pause

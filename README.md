@@ -1,109 +1,86 @@
-# AI Art Text Prompt Generator
+# Random Art Prompt Generator(RAPG)
 
-This program is designed to generate creative prompts for AI art generators. The program uses 
-a set of predefined lists of characters, objects, settings, adjectives and styles to randomly 
-generate a new prompt every time the user presses enter. The user can also choose to update 
-any of the elements in the previous prompt by entering a number between 1-7, corresponding to 
-the elements in the prompt.
+Welcome to the Random Art Prompt Generator, where your creative spirit gets a kick in the pants! With just the press of a button (or the enter key), you'll be transported to a world of adjectives, characters, objects, settings, styles, meta elements, and artists. Where your imagination takes you from there is up to you!
 
-To use this program, the user will first need to run the program and then press enter to 
-generate the first prompt. The user can then choose to generate a new prompt or update any of 
-the elements in the previous prompt. The program also allows the user to update the prompt 
-with new elements from a .json file, this can be done by using the "List Formatter" program. 
-The List Formatter program can be used to create different components for the variables in 
-this program.
+To get started, simply run the program and press enter. You'll be greeted with a brand new art prompt, complete with all the elements you need to get your creative juices flowing. If you want to update any of the elements in the prompt, simply enter the corresponding number (1-7) and you'll be given a new element in that category. Want to generate a new prompt entirely? Just press enter!
 
-By using the List Formatter program, the user can add new words to the predefined lists and 
-save them to a .json file, which can be later loaded into this program to update the existing 
-lists. This allows for greater flexibility and creativity when generating prompts.
+This program is fully customizable - you can add or change elements in the .json files located in the "lists" directory to your liking. So go ahead, get inspired, and create something amazing!
 
-It is important to note that this program is designed for the purpose of providing inspiration 
-for AI art and should not be used for any other purpose.
+Just remember, this is just the starting point for your imagination. The final product is entirely up to you and your creativity, so have fun and let your imagination run wild!
 
-# List Formatter README - 
+**Disclaimer: Using this program may cause excessive creativity and artistic inspiration. Use at your own risk!**
 
-List Formatter is a simple program that allows the user to store words in a dataset in the format 
-of ["item1", "item2", "item3", etc...]. The use case for this program is to enter words and add 
-them to lists in this format so that the user can later open the .json file and copy and paste 
-all of its contents to another program for text prompt generation for AI art.
+# Welcome to List Manager!
 
-## The program has a main menu with the following options:
+List Manager is a tool to manage and modify your lists with ease. Whether you're looking to update your RAPG(Random Art Prompt Generator) lists or any other list, List Manager is here to help.
 
-1. Load list - allows the user to load a previously saved dataset from a .json file
-2. Edit list - allows the user to add or remove items from the current dataset
-3. Quit - exits the program
-4. View loaded list - displays the current dataset
+### Features
 
-When the user chooses to "Load list" option, the program will display a list of all .json files 
-in the current directory, and the user can select the file they wish to load.
+   - Load a list from a .json file
+   - Edit a loaded list by adding or removing items
+   - Quit the program
+   - View the loaded list
 
-## NOTE: if you want to add your own empty .json files it must contain [] brackets initally.
+### How to Use
 
-When the user chooses to "Edit list" option, the user will be able to add new items to the 
-dataset or remove items that already exist in the dataset. The user will also be prompted 
-to save the changes made to the dataset.
+   - Start the program by running the python file.
+   - Select an option from the main menu.
+      - Load list: Select this option to load a list from a .json file in your current directory or a subdirectory.
+      - Edit list: Select this option to add or remove items from the loaded list.
+      - Quit: Select this option to exit the program.
+      - View loaded list: Select this option to view the contents of the loaded list.
+   - Follow the on-screen prompts to complete the selected action.
+
+### Tips
+
+   - Make sure to save changes to the list before quitting to ensure your changes are preserved.
+   - If you encounter any issues, check the .json file format to ensure it is valid.
+
+With List Manager, managing your lists has never been easier! Let's get started!
+
+**_NOTE: if you want to add your own empty .json files it must contain [] brackets initally._**
+
+When the user chooses the "Edit list" option, the user will be able to add new items to the 
+loaded list or remove items that already exist in the list. The user will also be prompted 
+to save the changes made to the dataset when exiting edit mode.(you must exit edit mode after you have edited to save changes.)
 
 When the user chooses the "View loaded list" option, the program will display the current 
-dataset.
+list.
 
 The program also has a confirmation prompt before quitting to ensure that the user does not 
 accidentally exit without saving their work.
 
 In summary, List Formatter is a simple program that allows the user to easily create and 
-edit datasets in a specific format for use in other programs such as text prompt generators 
-for AI art.
+edit lists in a specific format for use in RAPG.
 
-props to @526christian for inspiring me to make this
-https://github.com/526christian 
 
 # Steps to Create a Batch File to Run a Python Script
 
-## Step 1: Create the Python Script
-To start, create your Python Script.
+### To create your own batch file for the script:
 
-For example, let’s create a simple Python script that contains a countdown (alternatively, you may use any Python script that you wish to run):
+   1. Create a new .txt file and paste the following code into it:
 
-```
-countdown = 10
+     ```@echo off
+     "Path where your Python exe is stored\python.exe" "Path where your Python script is stored\script name.py"
+     pause```
 
-while countdown > 0:
-    print ('CountDown = ', countdown)
-    countdown = countdown - 1
-```
+   2. Replace "Path where your Python exe is stored" with the actual path to your Python executable, and replace "Path where your Python script is stored\script name.py" with the actual path to your Python script.
+   3. Save the .txt file and change its extension to .bat, for example, "run_script.bat".
+   4. Place the batch file in the same directory as the prompt generator script because the .jsons load from directories within the root of the promptgen script.
 
-## Step 2: Save your Script
-Save your Python script (your Python script should have the extension of ‘.py‘).
+And don't worry, it's easy, even easier than trying to catch a greased pig!
 
-For our example, let’s save the Python script as: Promptgen
+### To make a shortcut to the batch file:
 
-Where the file extension is .py
+   1. Right-click on the .bat file and select "Copy".
+   2. Navigate to the location where you want the shortcut to be and right-click, then select "Paste Shortcut".
+   3. The shortcut to your batch file can now be accessed from anywhere on your system for easy access.
 
-## Step 3: Create the Batch File to Run the Python Script
-To create the batch file, open Notepad and then use the following template:
+# Important Info:
 
-```
-@echo off
-"Path where your Python exe is stored\python.exe" "Path where your Python script is stored\script name.py"
-pause
-```
+This process for creating a batch file and running the Python script has been tested on Windows 10. If you are using a different operating system such as MacOS or Linux, you can create a similar script using a shell script. To do this, you will need to use a different file extension, such as .sh, and use the appropriate shell interpreter to run the script. You can learn more about creating shell scripts by searching online or consulting the documentation for your operating system.
 
-You’ll need to adjust the syntax in two places:
+### Hat Tips: 
 
-   - **“Path where your Python exe is stored\python.exe”**
-        Here is an example where a Python exe is located: “C:\Users\Ron\AppData\Local\Programs\Python\Python39\python.exe”
-   - **“Path where your Python script is stored\script name.py”**
-        And here is an example where a Python script is located:
-        “C:\Users\Ron\Desktop\Test\promptgen.py”
-
-Note that you’ll need to change the paths to reflect the locations where the files are stored on *your* computer.
-
-This is how the batch script would look like in Notepad for our example:
-
-```
-@echo off
-"C:\Users\Ron\AppData\Local\Programs\Python\Python39\python.exe" "C:\Users\Ron\Desktop\Test\promptgen.py"
-pause
-```
-Save the Notepad with a ‘.bat‘ extension. For example, let’s save the Notepad as Run_Script.bat
-
-A new batch file, called “Run_Script.bat,” will be created at your specified location.
+props to @526christian for inspiring me to make this
+https://github.com/526christian 
