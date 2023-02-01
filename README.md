@@ -4,6 +4,8 @@ Welcome to the Random Art Prompt Generator, where your creative spirit gets a ki
 
 To get started, simply run the program and press enter. You'll be greeted with a brand new art prompt, complete with all the elements you need to get your creative juices flowing. If you want to update any of the elements in the prompt, simply enter the corresponding number (1-7) and you'll be given a new element in that category. Want to generate a new prompt entirely? Just press enter!
 
+**The prompts are copied to your clipboard after they are generated and after you change one of the components using "1-7". All you have to do is go to your art generator and paste it!**
+
 This program is fully customizable - you can add or change elements in the .json files located in the "lists" directory to your liking. So go ahead, get inspired, and create something amazing!
 
 Just remember, this is just the starting point for your imagination. The final product is entirely up to you and your creativity, so have fun and let your imagination run wild!
