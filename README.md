@@ -71,7 +71,7 @@ while countdown > 0:
     countdown = countdown - 1
 ```
 
-##Step 2: Save your Script
+## Step 2: Save your Script
 Save your Python script (your Python script should have the extension of ‘.py‘).
 
 For our example, let’s save the Python script as: Promptgen
