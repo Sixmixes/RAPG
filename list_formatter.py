@@ -17,8 +17,12 @@ while True:
     if option == "1":
         while True:
             print("List files:")
-            # Get all json files in current directory
-            json_files = [f for f in os.listdir() if f.endswith('.json')]
+            # Get all json files in current directory and subdirectories
+            json_files = []
+            for root, dir, files in os.walk("."):
+                for file in files:
+                    if file.endswith(".json"):
+                        json_files.append(os.path.join(root, file))
             for i, file in enumerate(json_files):
                 print(f"{i+1}. {file}")
             # Get file number from user
