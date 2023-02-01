@@ -19,12 +19,14 @@ styles = ["Abstract", "Impressionistic", "Photorealistic", "Surrealistic", "Abst
 
 genmetas = ["Eerie", "Gloomy", "Somber", "Morbid", "Bleak", "Despairing", "Melancholic", "Misanthropic", "Cynical", "Despondent", "Wistful", "Melancholy", "Tragic", "Disheartening", "Dispiriting", "Desolate", "realistic", "8k", "4k", "detailed", "hyperdetailed", "sharp focus", "masterpiece", "absurdres", "highres", "professional", "photorealism", "studio quality", "hyper realistic"]
 
+artists = ["Aaron Horkey", "Abigail Larson", "Adam Paquette", "Adolph Menzel", "Adonna Khare", "Affandi", "Agnes Lawrence Pelton", "Agustin Fernandez", "Akira Toriyama", "Al Williamson", "Alan Lee", "Albert Bierstadt", "Alexander Milne Calder", "Alberto Giacometti", "Albrecht Durer", "Alena Aenami", "Alex Grey", "Alexander Bogen", "Alexander Jansson", "Alexandre Cabanel", "Alexej von Jawlensky", "Alfred Kubin", "Alfred Parsons", "Alice Neel", "Alice Rahon", "Alphonse Mucha", "Alyssa Monks", "Amanda Clark", "Amedeo Modigliani", "Amir Zand", "Laurel Burch", "Ander Wyeth", "Andre Leblanc", "Andre Masson", "Andy Goldsworthy", "Andy Warhol", "Angus Mckie", "Antoine Blanchard", "Anton Fadeev", "Anton Otto Fischer", "Anton Pieck", "Antoni Gaudi", "Antti Lovag", "Artemisia Gentileschi", "Artgerm", "Albrecht Durer", "Agustin Fernandez", "Amir Zand Laurel Burch", "Andrew Wyeth", "Andre Leblanc", "Andre Masson", "Angus McKie", "Anna Dittmann", "Anne Geddes", "Anne Stokes", "Anni Albers", "Annibale Carracci", "Ansel Adams", "Anthony van Dyck", "Ayami Kojima Banksy", "Beauford Delaney", "Aubrey Beardsley", "Audrey Kawasaki", "Barbara Kruger", "Beeple", "Apollonia Saintclair", "Arik Brauer", "Arnold Bocklin", "Arshile Gorky", "Art Fitzpatrick", "Artgerm ", "Arthur Adams", "Arthur Dove", "Arthur Hughes", "Arthur Rackham", "Atey Ghailan", "Art Spiegelman", "Asaf Hanuka", "August Macke", "Augustus Edwin Mulready", "Austin Briggs", "Bernie Wrightson", "Bjarke Ingels", "Boris Vallejo", "Brian Despain", "Bruce Pennington", "Camille Corot", "Ben Shahn", "Bob Byerley", "Bob Eggleton", "Brian Froud", "Brian Kesinger", "Camille-Pierre Pambu", "Bodo", "Barclay Shaw", "Ben Templesmith", "Bastien Lecouffe-Deharme", "Bauhaus", "Beatrix Potter", "Benoit B. Mandelbrot", "Bernard Buffet", "Bob Ringwood", "Bob Ross", "Bonnard Pierre", "Bridget Bate Tichenor", "Brothers Hildebrandt", "Canaletto", "Candido Portinari", "Caravaggio", "Carl Barks", "Carl Gustav Carus", "Cassius Marcellus Coolidge", "Carl Holsoe", "Carl Larsson", "Cecily Mary Barker", "Charles Addams", "Carne Griffiths", "Caspar David Friedrich", "Charles Angrand", "Charles Blackman", "Charles E. Burchfield", "Charles Schulz", "Chaim Soutine", "Chesley Bonestell", "Chiharu Shiota", "Chris Foss", "Chris LaBrooy", "Chris Mars", "Chris Moore", "Claude Monet", "Clive Madgwick", "Clovis Trouille", "Christopher Balaskas", "Cindy Sherman", "Claude Cahun", "Clyde Caldwell", "Coby Whitmore", "Coles Phillips", "Conrad Roset", "Cory Loftis", "Craig Davison", "Craig Mullins", "Craola", "Daniel Ridgway Knight", "David B. Mattingly", "Dean Ellis", "Dorothea Tanning", "Daniel Ridgway Knights", "David Bates", "David Burdeny", "Diane Arbus", "Diego Velazquez", "Cuno Amiet", "Dave Dorman", "Eddie Mendoza", "Edward Gorey", "Egon Schiele", "Eiichiro Oda", "Elsa Beskow", "Emil Nolde", "Ernst Ludwig Kirchner", "David Burliuk", "Don Bluth", "Dorothy Lathrop", "Dustin Nguyen", "Earl Norem", "Edgar Degas", "Edmund Dulac", "Edmund Leighton", "Edward Hopper", "Edward Lear", "Edward Robert Hughes", "Eileen Agar", "Elaine de Kooning", "Emile Galle", "Esao Andrews", "Dan Flavin", "Dave Gibbons", "David Finch", "Dan Mumford", "Dave McKean", "Daniel Merriam", "David A. Hardy", "Don Maitz", "David Hockney", "Donato Giancola", "David Palumbo", "Dora Maar", "Ed Emshwiller", "Edvard Munch", "Edward Weston", "Eddie Campbell", "Edward Burne-Jones", "Edwin Austin Abbey", "El Greco", "Emma Geary", "Eugene Delacroix", "Eleanor Vere Boyle", "Elliott Erwitt", "Enki Bilal", "Erich Heckel", "Ernst Fuchs", "Ernst Haeckel", "Evelyn De Morgan", "Eyvind Earle", "Farel Dalrympleq", "Felix-Kelly", "Fenghua Zhong", "Ferdinand Hodler", "Filip Hodas", "Francisco Goya", "Frank Auerbach", "Frank Frazetta", "Franz Xaver Winterhalter", "Frederic Church", "Frank Miller ", "Frederick Lord Leighton", "Filippino Lippi ", "Franklin Booth", "Francis Bacon", "Francis Picabia", "Franz Marc", "Franz Sedlacek", "Frida Kahlo ", "Frits Van den Berghe", "Gabriele M\u00fcnter", "Gaston Bussi\u00e8re ", "Geof Darrow", "George Frederic Watts", "George Grosz", "George Inness", "George Lucas", "George Luks ", "Georges Rouault", "Georges Seurat", "Georgia O'Keeffe", "Gerald Brom", "Gerhard Munthe", "Gerhard Richter", "Giacomo Balla", "Giorgio de Chirico", "Giovanni Battista Gaulli", "Giovanni Battista Piranesi", "Giuseppe Arcimboldo", "Grandma Moses", "Greg Hildebrandt", "Glen Fabry ", "Greg Rutkowski", "Go Nagai ", "Gregory Crewdson", "Goro Fujita ", "Graham Ingels", "Grzegorz Domaradzki", "Guido Borelli da Caluso", "Gustav Klimt", "Gustave Courbet", "Gustave Dor\u00e9", "Gustave Moreau", "Gustave Van de Woestijne ", "H. R. (Hans Ruedi) Giger", "H.P. Lovecraft", "Hans Bellmer", "Harold Elliott", "Helmut Newton", "Henri Rousseau", "Hieronymous Bosch", "Honor\u00e9 Daumier", "Hugh Kretschmer", "Hieronymus Bosch ", "Hope Gangloff ", "Hundertwasser", "Harriet Backer", "Harry Clarke", "Hal Foster ", "Hasui Kawase", "Hannah Hoch", "Hans Baldung", "Heinrich Kley ", "Heinrich Lefler", "Hendrick Goltzius", "Hendrik Kerstens", "Henri de Toulouse-Lautrec", "Henri Matisse", "Henri-Edmond Cross", "Henriette Grindat ", "Hilma af Klint ", "Howard Finster", "Henry Fuseli ", "Henry Ossawa Tanner", "Hirohiko Araki", "Ilya Repin", "Irma Stern", "Ivan Shishkin", "J. J. Grandville", "Jack Gaughan", "James Abbott McNeill Whistler", "Ian McQue ", "lan Miller ", "Isaac Levitan ", "Ismail Inceoglu ", "J.C. Leyendecker ", "Jack Kirby ", "Jacob Hashimoto ", "James C. Christensen", "James Jean ", "Jasmine Becket-Griffith", "James Paick", "James Turrell ", "Jamie Hewlett", "Hiromu Arakawa ", "Howard Hodgkin ", "Huang Guangjian ", "Ida Rentoul Outhwaite ", "Igor Morski ", "Ivan Aivazovsky ", "Ivan Albright ", "J.M.W. Turner ", "Jacek Yerka ", "Jack Butler Yeats ", "Jacob van Ruisdael ", "Jakub Rozalski ", "James Ensor ", "James Gilleard ", "Jane Graverol", "Hiroshi Nagai", "Hugh Ferriss", "Ilya Kuvshinov ", "Ivan Bilibin", "Jack Davis", "James Gurney", "Jaros\u0142aw Ja\u015bnikowski", "Jason Edmiston", "Jean-Antoine Watteau", "Jeff Easley ", "Jeremiah Ketner", "Jean-Baptiste Monge ", "Jeff Koons ", "Jeff Lemire ", "Jeremy Geddes", "Jeremy Lipking", "Joaqu\u00edn Sorolla ", "Joe Fenton ", "Joe Jusko", "John Atkinson Grimshaw", "Johannes Itten", "Jason Limon ", "Jean Arp ", "Jean-Honor\u00e9 Fragonard ", "Jeffrey Catherine Jones ", "Jeffrey Smith ", "Jeffrey T. Larson ", "Jeremy Mann ", "Jesper Ejsing ", "Jim Burns ", "Johannes Vermeer ", "Johfra Bosschart", "Jean Delville ", "Jean-Leon Gerome", "Jean Giraud ", "Jean Metzinger", "Jean-Michel Basquiat", "Joan Miro", "John Bauer ", "John Berkey ", "John Blanche", "John Constable", "Johji Manabe ", "John Frederick Kensett", "John Harris", "John Howe", "John Martin ", "John Perceval", "Jordan Grimmer", "John Hoyland ", "John Philip Falter ", "Josan Gonzalez ", "Josef Albers", "John James Audubon ", "John Singer Sargent ", "Joseph Cornell", "John Kenn Mortensen", "John Lavery", "John William Waterhouse", "Jon Klassen", "Joseph Ducreux", "Joseph Stella", "Jo\u00e3o Artur da Silva", "Judy Chicago ", "Jules Bastien-Lepage", "Julie Bell", "Junji Ito", "Justin Gerard", "Kaethe Butcher", "Kaja Foglio ", "Karl Blossfeldt ", "Karl Schmidt-Rottluff", "Karol Bak ", "Kate Greenaway", "Kati Horna", "Katsuhiro Otomo", "Katsushika Hokusai ", "Kay Nielsen", "Kay Sage", "Kazimir Malevich", "Keith Haring", "Keith Parkinson", "Kelly Freas", "Kelly McKernan ", "Ken Sugimori", "Kitty Lange Kielland", "Kengo Kuma", "Kent Monkman", "Kentaro Miura", "Konstantin Korovin", "Koson Ohara", "Krenz Cushart", "Kilian Eng ", "Kuang Hong", "Kim Jung Gi ", "Kuno Veeber", "K\u00e4the Kollwitz ", "Larry Elmore", "Laurie Greasley", "Laurie Lipton", "Lawren Harris", "Lee Madgwick", "Leiji Matsumoto", "Leon Kossoff", "Leonardo da Vinci", "Leonid Afremov", "Les Edwards", "Liam Wong", "Lisa Frank", "Lisa Keene", "Lise Deharme ", "Louis Comfort ", "Tiffany Lucas Cranach the Elder ", "Lucian Freud M.W. ", "Kaluta Mab Graves", "Louis Wain", "Louise Bourgeois", "Louise Dahl-Wolfe", "Lovis Corinth", "Makoto Shinkai", "Luis Royo ", "Lyonel Feininger ", "Malcolm Liepke ", "Man Ray", "Lyubov Popova", "M.C. Escher", "Marc Chagall", "Marc Simonetti", "Marcel Chagall", "Marcell Chagall", "Marco Mazzoni", "Marek Okon", "Margaret Macdonald Mackintosh", "Maria Sibylla Merian", "Marianne North", "Marianne von Werefkin", "Marius Borgeaud ", "Mark Briscoe ", "Mark Brooks", "Mark Rothko ", "Mark Ryden", "Marsden Hartley ", "Martin Deschambault", "Martin Johnson Heade", "Martine Johanna", "Martiros Saryan ", "Mary Blair", "Mary Cassatt", "Masaaki Sasamoto", "Masamune Shirow", "Mat Collishaw", "Mati Klarwein", "Matt Groening", "Matthias Gr\u00fcnewald", "Matti Suuronen", "Maurice Sendak", "Max Beckmann", "Max Ernst", "Max Pechstein", "Max Weber", "Maxfield Parrish", "Michael Parkes", "Michael Whelan", "Michaelangelo", "Michal Lisowski", "Miho Hirano", "Mikalojus Konstantinas Ciurlionis", "Mike Mignola ", "Mike Winkelmann", "Mikhail Nesterov", "Mikhail Vrubel", "Miles Johnston", "Natalia Goncharova", "Nele Zirnite", "Nicholas Roerich", "Nobuyoshi Araki ", "Noriyoshi Ohrai", "Odd Nerdrum", "Pablo Picasso", "Otto Marseus van Schrieck", "Paul C\u00e9zanne ", "Paul Delvaux", "Patrick Heron ", "Patrick Woodroffe ", "Paul Gustave Fischer ", "Paul Klee ", "Paul Lehr ", "Paula Modersohn-Becker ", "Peter Elson ", "Peter Gric ", "Peter Max ", "Peter Mohrbacher", "Milton Avery ", "Nick Knight ", "Odilon Redon ", "Pascal Blanch\u00e9", "Milton Glaser", "Moebius", "M\u00e9ret Oppenheim", "Nicolas Delort ", "Olafur Eliasson ", "Pascal Campion", "Nikolai Ge ", "Noah Bradley", "Oskar Kokoschka", "Otto Dix", "Philip Guston", "Philippe Druillet ", "Pierre Puvis de Chavannes ", "Pieter Aertsen ", "Pieter Bruegel the Elder ", "Pieter Claesz", "Quentin Blake", "Raphael", "Rafal Olbinski ", "Raphael Lacoste", "Rembrandt van Rijn", "Remedios Varo", "Richard Deacon", "Richard Doyle", "Raffeaello Ossola ", "Ray Caesar ", "Rene Magritte ", "Richard Eurich", "Patrice Murciano ", "Patrick Brown ", "Paul Gauguin ", "Paul Gustav Fischer ", "Peter Andrew Jones ", "Peter Bagge ", "Peter Paul Rubens ", "Petros Afshar ", "Phil Foglio ", "Pierre-Auguste Renoir ", "Piet Mondrian ", "Pieter de Hooch ", "Prateep Kochabua ", "Ralph Horsley ", "Ralph McQuarrie ", "Raymond Briggs ", "Raymond Swanland ", "RHADS ", "Richard Burlet ", "Richard S. Johnson", "Qian Xuan ", "Randolph Caldecott ", "Rebecca Guay", "Richard Corben", "Rob Gonsalves", "Richard Dadd ", "Rob Liefeld", "Rockwell Kent", "Robert Antoine Pinchon", "Rodel Gonzalez", "Robert Crumb", "Robert McCall ", "Rodney Matthews", "Robert Motherwell ", "Roger Dean", "Roberto Ferri", "Romero Britto", "Roberto Matta ", "Ron Walotsky", "Ronald Balfour", "Ross Tran", "Roy Lichtenstein", "Ruan Jian", "Rudolf Hausner", "Russ Mills", "Ryan Hewett", "Ryan McGinley", "Ryohei Hase", "Sailor Moon", "Sally Mann", "Sandra Chevrier", "Sandro Botticelli", "Santiago Caruso", "Salvador Dal\u00ed", "Satoshi Kon", "Sam Bosma", "Shinji Aramaki", "Shohei Otomo", "Shotaro Ishinomori", "Sir James Guthrie", "Siya Oum", "Sofonisba Anguissola", "Sidney Nolan", "Sonia Delaunay", "Scott Listfield", "Simon Bisley", "Sam Mayle", "Shepard Fairey", "Simon Stalenhag", "Sophie Anderson", "Stephen Gammell", "Steve Dillon", "Steve Ditko", "Steve Henderson", "Storm Thorgerson", "Sven Nordqvist", "Syd Mead", "Sydney Prior Hall", "Taiy\u014d Matsumoto", "Takasaki Masaharu", "Stanley Donwood", "Stuart Davis", "Takashi Murakami", "Takato Yamamoto", "Takeshi Obata", "Thomas Blackshear", "Tibor Nagy", "Tom Bagshaw", "Ub Iwerks", "Victor Brauner", "Virgil Finlay", "Wayne Barlowe", "William Blake", "William S Burroughs", "Yasushi Nirasawa", "Tom Thomson", "Ueda Fumito", "Victor Moscoso", "Walt Disney", "Wendy Froud", "William Gropper", "Thomas Cole ", "Tim Doyle ", "Tim Hildebrandt ", "Tomer Hanuka ", "Umberto Boccioni", "Victoria Franc\u00e9s ", "Walter Crane ", "Wes Anderson", "Tatsuro Kiuchi ", "Thomas Eakins ", "Tim White ", "Titian ", "Tony DiTerlizzi ", "Valentine Hugo ", "Viktor Vasnetsov ", "Walter Percy Day ", "Wilfredo Lam ", "William Henry Hunt ", "William Hogarth", "Ted Nasmith ", "Terada Katsuya ", "Terry Oakes", "Tex Avery", "Thomas Gainsborough", "Thomas H\u00e4fner ", "Tivadar Csontv\u00e1ry Kosztka ", "Travis Louie ", "Tsutomu Nihei ", "Tyler Edlin ", "Victo Ngai ", "Victor Adame Minguez", "Thomas Kinkade", "Todd McFarlane", "Vincent Di Fate ", "Warwick Goble", "Vincent Van Gogh ", "Wassily Kandinsky", "Willem de Kooning", "Willem van Haecht", "William Logsdail", "William Morris", "William Stout ", "Yayoi Kusama", "William-Adolphe Bouguereau", "Winslow Homer", "Yanjun Cheng", "Yoshitaka Amano", "Yuri Ivanovich Pimenov", "Yuumei", "Yves Klein", "Yves Tanguay ", "Yves Tanguy", "Zack Snyder \u00c9douard Manet", "Zaha Hadid \u00c9mile Bernard", "Zdzislaw Beksinski", "Zhang Kechun", "Zhichao Cai", "\u00d3scar Dom\u00ednguez"]
+
 # Number of styles and qualities to include in the prompt
 numstyles = 3
 numquality = 4
 
 while True:
-    user_input = input("Press enter to generate a new prompt, or enter a number 1-6 to update the corresponding list in the previous prompt(or enter 'q' to exit): ")
+    user_input = input("Press enter to generate a new prompt, or enter a number 1-7 to update the corresponding list in the previous prompt(or enter 'q' to exit): ")
     if user_input == "":
         # Select random elements from the lists
         character = rn.choice(characters)
@@ -33,9 +35,10 @@ while True:
         adj = rn.choice(adjectives)
         liststyles = rn.sample(styles, numstyles)
         listmetas =  rn.sample(genmetas, numquality)
+        artist = rn.choice(artists)
 
         # Create the prompt
-        prompt = '\n' + '\n' + adj + ' ' + character + ' ' + 'with a ' + obj + ' in ' + setting + ', ' + ', '.join(liststyles) + ', ' + ', '.join(listmetas) + '\n' + '\n'
+        prompt = adj + ' ' + character + ' ' + 'with a ' + obj + ' in ' + setting + ', ' + ', '.join(liststyles) + ', ' + ', '.join(listmetas) + ', art by ' + artist
 
         # Store the prompt and its elements in variables
         prev_prompt = prompt
@@ -45,45 +48,60 @@ while True:
         prev_adjectives = adj
         prev_styles = str(', '.join(liststyles))
         prev_metas = str(', '.join(listmetas))
+        prev_artists = artist
 
         # Print the prompt
-        print("Prompt: " + prompt)
+        print("\nPrompt:\n      " + prompt)
+        print("\n")
         pc.copy(prompt)
     elif user_input == "1":
         prev_adjectives = rn.choice(adjectives)
-        prev_prompt = '\n' + '\n' + prev_adjectives + ' ' + prev_characters + ' ' + 'with a ' + prev_objects + ' in ' + prev_settings + ', ' + prev_styles + ', ' + prev_metas + '\n' + '\n'
-        print("The adjectives in the previous prompt has been updated to: ",prev_adjectives)
-        print("The updated prompt is: ",prev_prompt)
+        prev_prompt = prev_adjectives + ' ' + prev_characters + ' ' + 'with a ' + prev_objects + ' in ' + prev_settings + ', ' + prev_styles + ', ' + prev_metas + ', art by ' + prev_artists
+        print("\nThe adjectives in the previous prompt has been updated to: \n",prev_adjectives)
+        print("\nThe updated prompt is: \n\n",prev_prompt)
+        print("\n")
         pc.copy(prev_prompt)
     elif user_input == "2":
         prev_characters = rn.choice(characters)
-        prev_prompt = '\n' + '\n' + prev_adjectives + ' ' + prev_characters + ' ' + 'with a ' + prev_objects + ' in ' + prev_settings + ', ' + prev_styles + ', ' + prev_metas + '\n' + '\n'
+        prev_prompt = prev_adjectives + ' ' + prev_characters + ' ' + 'with a ' + prev_objects + ' in ' + prev_settings + ', ' + prev_styles + ', ' + prev_metas + ', art by ' + prev_artists
         print("The characters in the previous prompt has been updated to: ",prev_characters)
-        print("The updated prompt is: ",prev_prompt)
+        print("\nThe updated prompt is: \n\n",prev_prompt)
+        print("\n")
         pc.copy(prev_prompt)
     elif user_input == "3":
         prev_objects = rn.choice(objects)
-        prev_prompt = '\n' + '\n' + prev_adjectives + ' ' + prev_characters + ' ' + 'with a ' + prev_objects + ' in ' + prev_settings + ', ' + prev_styles + ', ' + prev_metas + '\n' + '\n'
+        prev_prompt = prev_adjectives + ' ' + prev_characters + ' ' + 'with a ' + prev_objects + ' in ' + prev_settings + ', ' + prev_styles + ', ' + prev_metas + ', art by ' + prev_artists
         print("The objects in the previous prompt has been updated to: ",prev_objects)
-        print("The updated prompt is: ",prev_prompt)
+        print("\nThe updated prompt is: \n\n",prev_prompt)
+        print("\n")
         pc.copy(prev_prompt)
     elif user_input == "4":
         prev_settings = rn.choice(settings)
-        prev_prompt = '\n' + '\n' + prev_adjectives + ' ' + prev_characters + ' ' + 'with a ' + prev_objects + ' in ' + prev_settings + ', ' + prev_styles + ', ' + prev_metas + '\n' + '\n'
+        prev_prompt = prev_adjectives + ' ' + prev_characters + ' ' + 'with a ' + prev_objects + ' in ' + prev_settings + ', ' + prev_styles + ', ' + prev_metas + ', art by ' + prev_artists
         print("The settings in the previous prompt has been updated to: ",prev_settings)
-        print("The updated prompt is: ",prev_prompt)
+        print("\nThe updated prompt is: \n\n",prev_prompt)
+        print("\n")
         pc.copy(prev_prompt)
     elif user_input == "5":
         prev_styles = ', '.join(rn.sample(styles, numstyles))
-        prev_prompt = '\n' + '\n' + prev_adjectives + ' ' + prev_characters + ' ' + 'with a ' + prev_objects + ' in ' + prev_settings + ', ' + prev_styles + ', ' + prev_metas + '\n' + '\n'
+        prev_prompt = prev_adjectives + ' ' + prev_characters + ' ' + 'with a ' + prev_objects + ' in ' + prev_settings + ', ' + prev_styles + ', ' + prev_metas + ', art by ' + prev_artists
         print("The styles in the previous prompt has been updated to: ",prev_styles)
-        print("The updated prompt is: ",prev_prompt)
+        print("\nThe updated prompt is: \n\n",prev_prompt)
+        print("\n")
         pc.copy(prev_prompt)
     elif user_input == "6":
         prev_metas = ', '.join(rn.sample(genmetas, numquality))
-        prev_prompt = '\n' + '\n' + prev_adjectives + ' ' + prev_characters + ' ' + 'with a ' + prev_objects + ' in ' + prev_settings + ', ' + prev_styles + ' ' + prev_metas + '\n' + '\n'
+        prev_prompt = prev_adjectives + ' ' + prev_characters + ' ' + 'with a ' + prev_objects + ' in ' + prev_settings + ', ' + prev_styles + ', ' + prev_metas + ', art by ' + prev_artists
         print("The genmetas in the previous prompt has been updated to: ",prev_metas)
-        print("The updated prompt is: ",prev_prompt)
+        print("\nThe updated prompt is: \n\n",prev_prompt)
+        print("\n")
+        pc.copy(prev_prompt)
+    elif user_input == "7":
+        prev_artists = rn.choice(artists)
+        prev_prompt = prev_adjectives + ' ' + prev_characters + ' ' + 'with a ' + prev_objects + ' in ' + prev_settings + ', ' + prev_styles + ', ' + prev_metas + ', art by ' + prev_artists
+        print("The artist in the previous prompt has been updated to: ",prev_artists)
+        print("\nThe updated prompt is: \n\n",prev_prompt)
+        print("\n")
         pc.copy(prev_prompt)
     elif user_input == "q":
         break
