@@ -89,11 +89,11 @@ pause
 
 You’ll need to adjust the syntax in two places:
 
-“Path where your Python exe is stored\python.exe”
-Here is an example where a Python exe is located: “C:\Users\Ron\AppData\Local\Programs\Python\Python39\python.exe”
-“Path where your Python script is stored\script name.py”
-And here is an example where a Python script is located:
-“C:\Users\Ron\Desktop\Test\promptgen.py”
+     - “Path where your Python exe is stored\python.exe”
+        Here is an example where a Python exe is located: “C:\Users\Ron\AppData\Local\Programs\Python\Python39\python.exe”
+     - “Path where your Python script is stored\script name.py”
+        And here is an example where a Python script is located:
+        “C:\Users\Ron\Desktop\Test\promptgen.py”
 
 Note that you’ll need to change the paths to reflect the locations where the files are stored on *your* computer.
 
