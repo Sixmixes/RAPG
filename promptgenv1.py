@@ -115,4 +115,4 @@ while True:
     elif user_input == "q":
         break
     else:
-        print("Invalid input. Please enter a number 1-6 or press enter to generate a new prompt.")
+        print("Invalid input. Please enter a number 1-7 or press enter to generate a new prompt.")
