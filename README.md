@@ -62,9 +62,9 @@ edit lists in a specific format for use in RAPG.
 
    1. Create a new .txt file and paste the following code into it:
 
-     ```@echo off
+     @echo off
      "Path where your Python exe is stored\python.exe" "Path where your Python script is stored\script name.py"
-     pause```
+     pause
 
    2. Replace "Path where your Python exe is stored" with the actual path to your Python executable, and replace "Path where your Python script is stored\script name.py" with the actual path to your Python script.
    3. Save the .txt file and change its extension to .bat, for example, "run_script.bat".
